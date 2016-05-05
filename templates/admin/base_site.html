@@ -1,0 +1,9 @@
+{% extends "admin/base.html" %}
+
+{% block title %}{{ title }} | {{ site_title|default:_('겁쟁이사자처럼-통인시장도시락집리뷰') }}{% endblock %}
+
+{% block branding %}
+<h1 id="site-name"><a href="{% url 'admin:index' %}">{{ site_header|default:_('겁쟁이사자처럼-통인시장도시락집리뷰') }}</a></h1>
+{% endblock %}
+
+{% block nav-global %}{% endblock %}
